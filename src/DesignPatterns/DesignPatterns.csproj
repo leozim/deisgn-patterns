@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="02 - Structural\" />
+    <Folder Include="02 - Structural\Adapter\" />
     <Folder Include="03 - Behavioral\" />
   </ItemGroup>
 
