@@ -8,7 +8,7 @@ public class PayPalGateway : IPayPalGateway
             .Select(s => s[new Random().Next(s.Length)]).ToArray());
     }
 
-    public string GetCardHasKey(string serviceKey, string cartaoCredito)
+    public string GetCardHashKey(string serviceKey, string cartaoCredito)
     {
         return new string(Enumerable.Repeat("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", 10)
             .Select(s => s[new Random().Next(s.Length)]).ToArray());
