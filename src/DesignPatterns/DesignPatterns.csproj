@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="02 - Structural\2.3 - Composite\" />
+    <Folder Include="02 - Structural\2.3 - Composite\Client\" />
+    <Folder Include="02 - Structural\2.3 - Composite\Component\" />
+    <Folder Include="02 - Structural\2.3 - Composite\CompositeChild\" />
+    <Folder Include="02 - Structural\2.3 - Composite\Leaf\" />
     <Folder Include="03 - Behavioral\" />
   </ItemGroup>
 
