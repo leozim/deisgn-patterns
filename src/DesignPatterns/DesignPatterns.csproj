@@ -9,7 +9,11 @@
 
   <ItemGroup>
     <Folder Include="02 - Structural\2.3 - Composite\CompositeChild\" />
-    <Folder Include="03 - Behavioral\Command\" />
+    <Folder Include="03 - Behavioral\CommandPattern\Client\" />
+    <Folder Include="03 - Behavioral\CommandPattern\Command\" />
+    <Folder Include="03 - Behavioral\CommandPattern\ConcreteCommand\" />
+    <Folder Include="03 - Behavioral\CommandPattern\Invoker\" />
+    <Folder Include="03 - Behavioral\CommandPattern\Receiver\" />
   </ItemGroup>
 
 </Project>
