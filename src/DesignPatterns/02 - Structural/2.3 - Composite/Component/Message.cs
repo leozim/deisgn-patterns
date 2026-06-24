@@ -39,13 +39,13 @@ public class Message : IMessage, IEnumerable<IMessage>
         return _list;
     }
     
-    public void ExibirMessages(int sub)
+    public void ShowMessages(int sub)
     {
         Console.WriteLine(new string ('-', sub) + Nome);
 
         foreach (var message in _list)
         {
-            message.ExibirMessages(sub + 2);
+            message.ShowMessages(sub + 2);
         }
     }
 

@@ -10,7 +10,7 @@ public class InputFormMessage : IMessage
     {
         Nome = name;
     }
-    public void ExibirMessages(int sub)
+    public void ShowMessages(int sub)
     {
         Console.WriteLine(new string('-', sub) + Nome);
     }

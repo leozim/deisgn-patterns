@@ -3,5 +3,5 @@
 public interface IMessage
 { 
     string Nome { get; set; }
-    void ExibirMessages(int sub);
+    void ShowMessages(int sub);
 }
