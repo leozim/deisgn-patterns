@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="02 - Structural\2.3 - Composite\CompositeChild\" />
     <Folder Include="03 - Behavioral\" />
   </ItemGroup>
 
