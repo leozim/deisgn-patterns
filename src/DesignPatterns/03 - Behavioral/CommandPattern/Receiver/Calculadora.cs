@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns._03___Behavioral.CommandPattern.Receiver;
 
-internal class Calculadora
+public class Calculadora
 {
     private int _valorAtual;
 
@@ -21,8 +21,7 @@ internal class Calculadora
                 _valorAtual /= valor;
                 break;
             default:
-                Console.WriteLine("Opção invalida");
-                break;
+                throw new ArgumentException("Operador desconhecido");
         }
 
         Console.WriteLine("(dado {1} {2}) - Valor atual = {0, 3}", _valorAtual, operador, valor);
