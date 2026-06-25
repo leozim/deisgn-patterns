@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="02 - Structural\2.3 - Composite\CompositeChild\" />
     <Folder Include="03 - Behavioral\CommandPattern\Invoker\" />
+    <Folder Include="03 - Behavioral\Strategy\" />
   </ItemGroup>
 
 </Project>
