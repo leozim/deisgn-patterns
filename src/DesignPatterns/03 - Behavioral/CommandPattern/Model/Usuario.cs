@@ -18,14 +18,27 @@ public class Usuario
         _commands.Add(command);
         _total++;
     }
+    
+    public void Retornar(int niveis)
+    {
+        Console.WriteLine("\n---- Retornando {0} níveis", niveis);
+
+        for (int i = 0; i < niveis; i++)
+        {
+            if (_total >= _commands.Count - 1) continue;
+            var command = _commands[_total++];
+            command.Executar();
+        }
+    }
 
     public void Desfazer(int niveis)
     {
-        throw new NotImplementedException();
-    }
-
-    public void Retornar(int niveis)
-    {
-        throw new NotImplementedException();
+        Console.WriteLine("\n---- Retornando {0} níveis", niveis);
+        for (int i = 0; i < niveis; i++)
+        {
+            if (_total < 0) continue;
+            var command = _commands[--_total];
+            command.Desfazer();
+        }
     }
 }
